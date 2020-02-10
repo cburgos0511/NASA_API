@@ -26,4 +26,13 @@ h6 {
 .busca-btn {
   margin-top: 20px;
 }
-.;
+
+.alt {
+  text-align: center;
+  border-radius: 2px;
+}
+
+td,
+th {
+  text-align: center;
+}
