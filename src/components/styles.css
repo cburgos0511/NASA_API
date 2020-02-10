@@ -2,3 +2,28 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+h6 {
+  margin-right: 10px;
+  font-size: 12px;
+}
+
+.center {
+  text-align: center;
+}
+
+.explanation {
+  padding-top: 5px;
+  margin-top: 8px;
+  text-align: left;
+}
+
+.explanation-container {
+  width: 90%;
+}
+
+.busca,
+.busca-btn {
+  margin-top: 20px;
+}
+.;
