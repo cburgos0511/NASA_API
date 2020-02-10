@@ -32,7 +32,7 @@ const Apod = () => {
       });
   };
   const renderForm = () => {
-    let placeHolder = error ? "YYYY-MM-DD" : date;
+    let placeHolder = !error ? "YYYY-MM-DD" : date;
     return (
       <form onSubmit={e => handleSubmit(e)} className="input-group mb-3">
         <input
