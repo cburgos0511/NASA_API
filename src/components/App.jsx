@@ -4,7 +4,6 @@ import "./styles.css";
 import Navigation from "./Navigation";
 import Home from "./pages/Home";
 import Apod from "./pages/Apod";
-import Insight from "./pages/Insight";
 import Asteroids from "./pages/Asteroids";
 
 const App = () => {
@@ -14,7 +13,6 @@ const App = () => {
       <div className="container">
         <Route path="/" exact component={Home} />
         <Route path="/apod" component={Apod} />
-        <Route path="/insight" component={Insight} />
         <Route path="/asteroids" component={Asteroids} />
       </div>
     </Router>

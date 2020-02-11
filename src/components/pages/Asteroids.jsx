@@ -45,7 +45,7 @@ const Asteroids = () => {
     return (
       <>
         <div>
-          <h1 class="center">Today's Asteroids </h1>
+          <h1 className="center">Today's Asteroids </h1>
         </div>
 
         <table className="table">
